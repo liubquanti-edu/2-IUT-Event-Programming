@@ -1,0 +1,14 @@
+# Ensure PowerShell scripts are treated as text and use LF line endings
+*.ps1   text eol=lf
+*.psm1  text eol=lf
+*.psd1  text eol=lf
+
+# Optional: enforce UTF-8 encoding for PowerShell files
+*.ps1   working-tree-encoding=UTF-8
+*.psm1  working-tree-encoding=UTF-8
+*.psd1  working-tree-encoding=UTF-8
+
+# Optional: linguist-language override for GitHub to classify as PowerShell
+*.ps1   linguist-language=PowerShell
+*.psm1  linguist-language=PowerShell
+*.psd1  linguist-language=PowerShell
